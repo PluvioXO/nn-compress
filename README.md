@@ -1,1 +1,2 @@
 This is nn-compress!
+A lightweight CLI high accuracy lossy compressor built for neural networks; taking in a HDF5 file format and returning the same format however with a reudced number of paramters while hardly reducing effecting accuracy but significantly reducing file storage size and the number of FLOPS needed to run the model. The current beta version will only work with basic PyTorch produces HDF5 neural network models. However I have plans to expand compatibility to take in whole transformer architectures and return compressed formats.    
